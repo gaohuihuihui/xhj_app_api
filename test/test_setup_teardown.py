@@ -32,7 +32,8 @@ import pytest
 #
 # def teardown_function():
 #     print("teardown function")
-
+def inx(x):
+    return x+1
 
 class TestSetupteardwon():
     def setup_class(self):
@@ -43,6 +44,8 @@ class TestSetupteardwon():
         print("case1")
         pass
     def test_case2(self):
+        pass
+    def test_case3(self):
         print("case2")
         pass
     def teardown(self):
